@@ -1,0 +1,11 @@
+parameters:
+    codemaster.mailup.class: Codemaster\Bundle\MailupBundle\Webservice\Rest
+
+services:
+#    mailup.example:
+#        class: Codemaster\Bundle\MailupBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+    codemaster.mailup:
+        class: %codemaster.mailup.class%
+        arguments:
+            - @logger

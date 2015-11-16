@@ -1,0 +1,17 @@
+{
+    "name": "codemaster/mailup-bundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "description": "The \"Symfony Standard Edition\" bundle for MailUP",
+    "autoload": {
+        "psr-4": {
+            "Codemaster\\Bundle\\": "src/Codemaster/Bundle"
+        }
+    },
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/symfony": "2.7.*",
+        "symfony/monolog-bundle": "~2.4",
+        "eightpoints/guzzle-bundle": "^4.3"
+    }
+}
