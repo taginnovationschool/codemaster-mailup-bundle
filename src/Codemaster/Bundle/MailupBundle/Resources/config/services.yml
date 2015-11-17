@@ -8,4 +8,7 @@ services:
     codemaster.mailup:
         class: %codemaster.mailup.class%
         arguments:
+            - @guzzle.client.codemaster_mailup
+            - @session
             - @logger
+            - %mailup_token_secret%

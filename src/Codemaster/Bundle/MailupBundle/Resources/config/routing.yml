@@ -1,7 +1,3 @@
-mailup_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: MailupBundle:Default:index }
-
 mailup_login:
     path:     /login
     defaults: { _controller: MailupBundle:Auth:login }
